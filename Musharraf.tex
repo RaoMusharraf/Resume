@@ -1,0 +1,194 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+%\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+\item\small{
+	\textbf{#1}{: #2 \vspace{-2pt}}
+}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & #2 \\
+	\textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%% CV STARTS HERE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{\href{https://www.linkedin.com/in/musharraf-rao}{\Large  M.Musharraf Naseem}}
+\end{tabular*}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{\href{https://www.linkedin.com/in/musharraf-rao}{\Large}} & \tiny{\href{mailto:fast.musharraf@gmail.com}{fast.musharraf@gmail.com}},
+	\tiny{\href{https://github.com/RaoMusharraf}{https://github.com/RaoMusharraf}}, \tiny{+92 3020321360},
+	\tiny{\href{https://www.linkedin.com/in/musharraf-rao}{https://www.linkedin.com/in/musharraf-rao}}
+\end{tabular*}
+
+\vspace{6px}
+
+%-----------EDUCATION-----------------
+
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{National University of Computer and Emerging Sciences}{}
+{BS Computer Science }{2018 -- 2022}
+
+\resumeSubHeadingListEnd
+
+
+%--------SKILLS------------
+
+\section{Skills}
+\resumeSubHeadingListStart
+\itemsep0em 
+\item{
+	\textbf{Business}{: Communication, Creativity, Leadership.}
+}
+\item{
+	\textbf{Programming}{: Logics, OOP Concepts, Data Structure.}
+}
+\item{
+	\textbf{Management}{: Time Management, Flexibility.}
+}
+
+\resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+
+\section{Technical Skills}
+\resumeSubHeadingListStart
+\itemsep0em 
+\item{
+	\textbf{Programming}{: Python, Java, C++.}
+}
+
+\item{
+	\textbf{Web}{: Node.js, Flask, HTML, CSS.}
+}
+\item{
+	\textbf{Libraries}{: Pandas, Numpy.}
+}
+\item{
+	\textbf{Databases}{: MySQL, SQL.}
+}
+\item{
+	\textbf{Data visualization}{: Kiali.}
+}
+\item{
+	\textbf{Network Monitoring}{: XDP, eBPF, Cisco Packet Tracer.}
+}
+\item {
+	\textbf{Operating System}{: Linux, Kali, Windows}
+}
+
+\item{
+	\textbf{Cloud} {: Docker, Kubernetes, Istio.}
+}
+
+
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Final Year Project}{}
+{Software Developer}{Feb 2022 - Present}
+\resumeItemListStart
+\resumeItem{Development Assistance - Blockchain Application:}
+{Developing a Block-chain-based decentralized framework for Appraisal system. We enhanced the flexibility of Appraisal System by smart  contract. A series of design algorithms based on smart contract were proposed to construct a concrete scheme under the framework.we evaluated our approach on Ethereum Virtual Machine by implementing components providing decentralized Appraisal services.}
+\resumeItemListEnd
+
+\resumeSubheading
+{FAST-NUCES}{}
+{Student}{Jul 2018 - Jul 2022}
+\resumeItemListStart
+\resumeItem{Fake News Detection:}
+{The primary aim of this Project is to identify patterns in text that differentiate fake articles from true news. Applied machine learning algorithms like K-Nearest Neighbors (KNN), Logistic Regression and Random Forest (RF).}
+\resumeItem{Packet Filtering:}
+{Purpose was to filter all unwanted packets as early as possible, so the filtering mechanism had to be shifted from user space utilities like tcpdump to the in-kernel virtual machine. This was done by using eBPF(Berkeley Packet Filter), XDP(Express Data Path) and Linux CLI.}
+\resumeItem{Wifi Password Security:}
+{This Project done by using Kali Linux Command and Wireshark and Aircrack- ng which is a complete suite of tools to assess wifi network security.}
+\resumeItem{Voting System:}
+{Develop a web application of voting system by using Flask, Html, CSS, MySQl, Python, Bootstrap and than containerized by docker and kubernetes.}
+\resumeItem{Online Shopping System:}
+{Develop a web application of Online Shopping System by using NodeJS, Html, CSS, SQl and React Native.}
+\resumeItem{Library Management System:}
+{Develop a simple Program of library management system by using OPP concepts, Programming Skills, C++ and SQl.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------Language-----------------
+
+\section{Language}
+\resumeSubHeadingListStart
+\itemsep0em 
+\item{
+	\textbf{}{English}
+}
+\item{
+	\textbf{}{Urdu}
+}
+
+\resumeSubHeadingListEnd
+
+
+\end{document}\\
